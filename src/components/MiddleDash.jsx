@@ -1,3 +1,4 @@
+import profileImg  from '../assets/profile.png'
 import './MiddleDash.css'
 
 function MiddleDash(){
@@ -11,15 +12,24 @@ function MiddleDash(){
                     dashboard
                   </p>
                   <p className="date">
-                      {Date()}
+                      july : 13 : 2024
                   </p>
                   </div>
-                        <div className="searchConatiner">
-                          <input type="search" />
-                          <span className="gear"> <i className="fa-solid fa-gear icons"></i></span>
-                          <span className="bell"> <i className="fa-solid fa-bell icons"></i></span>
-                          <span className="envelope"> <i className="fa-solid fa-envelope icons"></i></span>
+                       <div className="nextedNav">
+                       <div className="searchConatiner">
+                          <input type="search" /> <i className="fa-solid fa-search searchIcon"></i>
+                          <span className="gear"> <i className="fa-solid fa-gear navIcons"></i></span>
+                          <span className="bell"> <i className="fa-solid fa-bell navIcons"></i></span>
+                          <span className="envelope"> <i className="fa-solid fa-envelope navIcons"></i></span>
                         </div>
+                        <div className="profilecont">
+                          <img src={profileImg} alt="" />
+                           <div className="userInfo">
+                           <p className="userName">jelili aja <i className="fa-solid fa-chevron-down searchIcon"></i></p>
+                          <p className="userAccount">4764732874328</p>
+                           </div>
+                        </div>
+                       </div>
               </div>
         </div>
        </>
