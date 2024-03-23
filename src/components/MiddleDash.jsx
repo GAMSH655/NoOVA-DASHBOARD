@@ -2,6 +2,7 @@ import profileImg  from '../assets/profile.png'
 import './MiddleDash.css'
 
 function MiddleDash(){
+  
     return(
        <>
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></link>
@@ -25,8 +26,14 @@ function MiddleDash(){
                         <div className="profilecont">
                           <img src={profileImg} alt="" />
                            <div className="userInfo">
-                           <p className="userName">jelili aja <i className="fa-solid fa-chevron-down searchIcon"></i></p>
-                          <p className="userAccount">4764732874328</p>
+                           <p className="userName">
+                            <span className="spn">
+                            jelili aja <i className="fa-solid fa-chevron-down "></i>
+                            </span>
+                            <span className="span2">
+                            4764732874328
+                            </span>
+                           </p>
                            </div>
                         </div>
                        </div>

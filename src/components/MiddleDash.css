@@ -13,10 +13,18 @@ text-align: left;
 .navBar{
       display:flex;
       justify-content: space-between;
-      background-color: red;
-       width: 1000px;
+       width: 900px;
      position: relative;
      right: 40px;
+     padding: 30px;
+}
+.date{
+     font-family: Inter;
+     font-size:1.5rem;
+     font-weight: 400;
+     line-height: 18px;
+     text-align: left;
+     text-transform: capitalize;
 }
 .profilecont{
    display: flex;  
@@ -27,7 +35,7 @@ text-align: left;
      display: flex;  
      justify-content: space-between;
 }
-.userInfo{
+.spn , spn2{
      display: block;
 }
 .searchConatiner{
@@ -52,4 +60,7 @@ input{
      background-color: rgb(63, 63, 63);
      margin: 10px;
      border-radius: 15px;
+}
+.userName{
+     padding: 10px;
 }
