@@ -7,9 +7,8 @@
  }
 .asideBar{
     width: 250px;
-    height: 150vh;
+    height: 100vh;
     text-align: center;
-    overflow-y:hidden;
     /* From https://css.glass */
     background: rgba(242, 242, 242, 0.09);
         border-radius: 16px;
