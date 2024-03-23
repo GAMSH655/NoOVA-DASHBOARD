@@ -1,0 +1,7 @@
+body{
+   background-color:rgba(4, 0, 15, 1);
+}
+.mainDash{
+   display: flex;
+   justify-content: space-evenly;
+}

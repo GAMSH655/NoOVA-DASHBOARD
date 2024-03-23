@@ -1,0 +1,42 @@
+/* .logotext{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+.logo{
+    width: 170px;
+ }
+.asideBar{
+    width: 250px;
+    height: 100vh;
+    text-align: center;
+    overflow-y:hidden;
+    /* From https://css.glass */
+    background: rgba(242, 242, 242, 0.09);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-top-left-radius: 0px;
+        margin: 0px;
+}
+.menu {
+    color: white;
+    font-family: Inter;
+    font-size: 12.22px;
+    font-weight: 400;
+    line-height: 14.79px;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+}
+.menuContainer{
+    margin-top: 50px;
+}
+.menu2{
+    margin-top: 30px;
+}
+
+

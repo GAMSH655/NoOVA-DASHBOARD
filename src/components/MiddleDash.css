@@ -1,0 +1,13 @@
+.middleDAsh{
+     margin-left: 50px;
+     color: white;
+}
+.dashText{
+ text-transform: capitalize;  
+font-family: Inter;
+font-size: 28px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+
+}
