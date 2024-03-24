@@ -17,7 +17,7 @@
 }
 .eye{
      position: relative;
-     left: 100px;
+     left: 180px;
      color: white;
 }
 .account{
@@ -89,7 +89,7 @@ text-transform: capitalize
 .telegram{
     padding: 10px;
         background-color: rgb(63, 63, 63);
-        margin-left: 240px;
+        margin-left: 230px;
         border-radius: 15px;
 }
 .flexContainer{

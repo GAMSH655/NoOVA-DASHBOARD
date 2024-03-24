@@ -8,8 +8,8 @@ function AsideBAr (){
                <div className={AsideStyle.asideBar}>
                     {/* <h3 className="logotext"> <i class="fa-solid fa-desktop"> nova days </i></h3> */}
                  <img src={Logo} alt=""   className={AsideStyle.logo} />
-                  <div className="menuContainer">
-                      <p className={AsideStyle.menu}><i className="fa-solid fa-house icons"></i>dashboard</p>
+                  <div className={AsideStyle.menuContainer}>
+                      <p className={AsideStyle.activeMenu}><i className="fa-solid fa-house icons"></i>dashboard</p>
                       <p className={AsideStyle.menu}><i className="fa-brands fa-telegram icons"></i> payments</p>
                       <p className={AsideStyle.menu}><i className="fa-solid fa-wallet icons"></i> wallets</p>
                       <p className={AsideStyle.menu}><i className="fa-solid fa-user icons"></i> profile</p>
