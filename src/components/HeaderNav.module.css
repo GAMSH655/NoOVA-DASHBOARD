@@ -1,4 +1,4 @@
-dashText{
+.dashText{
     text-transform: capitalize;  
    font-family: Inter;
    font-size: 28px;
@@ -9,9 +9,9 @@ dashText{
    .navBar{
          display:flex;
          justify-content: space-between;
-          width: 900px;
+         width: 950px;
         position: relative;
-        right: 40px;
+        left: 10px;
         padding: 30px;
    }
    .date{
@@ -46,12 +46,13 @@ dashText{
          padding: 10px;
          position: relative;
          border-radius: 20px;
+         outline: none;
    }
-   .searchIcon{
+   #searchIcon{
          position: relative;
          right: 35px;
    }
-   .navIcons{
+   .gear , .bell , .envelope {
         padding: 10px;
         background-color: rgb(63, 63, 63);
         margin: 10px;

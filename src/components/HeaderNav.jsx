@@ -16,10 +16,10 @@ function Nav(){
                   </div>
                        <div className={HeaderStyle.nextedNav}>
                        <div className={HeaderStyle.searchConatiner}>
-                          <input type={HeaderStyle.search} /> <i className="fa-solid fa-search searchIcon"></i>
-                          <span className={HeaderStyle.gear}> <i className="fa-solid fa-gear navIcons"></i></span>
-                          <span className={HeaderStyle.bell}> <i className="fa-solid fa-bell navIcons"></i></span>
-                          <span className={HeaderStyle.envelope}> <i className="fa-solid fa-envelope navIcons"></i></span>
+                          <input type="search" /> <i className="fa-solid fa-search" id={HeaderStyle.searchIcon}></i>
+                          <span className={HeaderStyle.gear}> <i className="fa-solid fa-gear Headerstyle.navIcons"></i></span>
+                          <span className={HeaderStyle.bell}> <i className="fa-solid fa-bell "></i></span>
+                          <span className={HeaderStyle.envelope}> <i className="fa-solid fa-envelope "></i></span>
                         </div>
                         <div className={HeaderStyle.profilecont}>
                           <img src={profileImg} alt="" />

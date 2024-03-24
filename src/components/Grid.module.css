@@ -1,0 +1,51 @@
+.flexBox1{
+    background-color: rebeccapurple;
+    padding: 30px;
+    width: 250px;
+}
+.eyecom{
+    display: flex;
+    justify-content: space-around;
+}
+.eye{
+     position: relative;
+     left: 100px;
+     color: white;
+}
+.account{
+    padding-top: 10px;
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color:white;
+    text-transform: capitalize;
+}
+.account2{
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color:white;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.naira{
+    font-size: 2rem;
+    text-decoration: line-through;   
+    color: yellow;
+}
+.money{
+    font-size: 2rem;
+
+}
+.jelili{
+font-family: Inter;
+font-size: 19px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+button{
+     background-color: reds;
+     width: 150px;
+     margin-top: 15px;
+}

@@ -1,23 +1,25 @@
  import Gridstyles from './Grid.module.css'
 const GridAspect=()=>{
  return (
-     <> 
-      <div className={Gridstyles.gridContainer}>
-            <div className={Gridstyles.gridBox1}>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima perferendis reprehenderit, aliquam sequi itaque vel aperiam voluptate voluptatum. Nemo maiores molestiae est consequuntur fugit facere suscipit atque et magni itaque.
-                Deleniti quod ab quam porro, inventore nobis facere adipisci hic, fugit fugiat magnam, ullam sequi impedit reiciendis aspernatur natus architecto! Fugit minus maiores omnis vel ex quod molestiae, modi ut.</p>
-            </div>
-            <div className={Gridstyles.gridBox2}>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima perferendis reprehenderit, aliquam sequi itaque vel aperiam voluptate voluptatum. Nemo maiores molestiae est consequuntur fugit facere suscipit atque et magni itaque.
-                Deleniti quod ab quam porro, inventore nobis facere adipisci hic, fugit fugiat magnam, ullam sequi impedit reiciendis aspernatur natus architecto! Fugit minus maiores omnis vel ex quod molestiae, modi ut.</p>
-            </div>
-            <div className={Gridstyles.gridBox3}>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima perferendis reprehenderit, aliquam sequi itaque vel aperiam voluptate voluptatum. Nemo maiores molestiae est consequuntur fugit facere suscipit atque et magni itaque.
-                Deleniti quod ab quam porro, inventore nobis facere adipisci hic, fugit fugiat magnam, ullam sequi impedit reiciendis aspernatur natus architecto! Fugit minus maiores omnis vel ex quod molestiae, modi ut.</p>
-            </div>
-
-      </div>
-     </>
+    <> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></link>
+    <div className={Gridstyles.flexContainer}>
+          <div className={Gridstyles.flexBox1}>
+              <p className={Gridstyles.account}>
+                   account balance <span className={Gridstyles.eye}> <i className="fa-solid fa-eye "></i></
+                   span>
+              </p>
+              <p className={Gridstyles.money}>
+                   <span className={Gridstyles.naira}>N</span>20,000,000
+              </p>
+              <p className={Gridstyles.account2}> account number</p>
+              <p className={Gridstyles.jelili}>jelili-ajao - 446476272 <i class="fa-sharp fa-regular fa-copy"></i></p>
+              <button>nn</button>
+              <button>nn</button>
+          </div>
+         
+    </div>
+   </>
  )
    
 } 

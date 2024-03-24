@@ -1,4 +1,4 @@
- import './App.module.css'
+ import  AppStyle from'./App.module.css'
  import Aside from './components/Aside'
  import MiddleDash from './components/MiddleDash'
  import Grid from './components/GridComp'
@@ -7,10 +7,9 @@ function App() {
 
   return (
     <>
-      <div className="mainDash">
+      <div className={AppStyle.mainDash} >
       <Aside />
       <MiddleDash />
-    
       </div>
         
     </>
