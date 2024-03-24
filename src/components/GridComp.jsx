@@ -14,8 +14,14 @@ const GridAspect=()=>{
               </p>
               <p className={Gridstyles.account2}> account number</p>
               <p className={Gridstyles.jelili}>jelili-ajao - 446476272 <i class="fa-sharp fa-regular fa-copy"></i></p>
-              <button>nn</button>
-              <button>nn</button>
+              <div className={Gridstyles.btnCont}>
+                  <button>
+                  <i className="fa-brands fa-telegram icons"></i> send money
+                  </button>
+                  <button>
+                    ff
+                  </button>
+              </div>
           </div>
          
     </div>

@@ -1,7 +1,7 @@
 .flexBox1{
     background-color: rebeccapurple;
     padding: 30px;
-    width: 250px;
+    width: 350px;
 }
 .eyecom{
     display: flex;
@@ -31,7 +31,6 @@
 .naira{
     font-size: 2rem;
     text-decoration: line-through;   
-    color: yellow;
 }
 .money{
     font-size: 2rem;
@@ -46,6 +45,17 @@ text-align: left;
 }
 button{
      background-color: reds;
-     width: 150px;
+     width: 180px;
      margin-top: 15px;
+     border: none;
+     margin: 20px;
+     margin-left: 20px;
+     padding: 9px;
+     font-size: 1rem;
+     font-weight: bold;
+     color:rgba(103, 53, 240, 1);
+     ;
+}
+.btnCont{
+    display: flex;
 }
