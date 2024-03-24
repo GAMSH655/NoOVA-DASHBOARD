@@ -16,10 +16,10 @@ const GridAspect=()=>{
               <p className={Gridstyles.jelili}>jelili-ajao - 446476272 <i class="fa-sharp fa-regular fa-copy"></i></p>
               <div className={Gridstyles.btnCont}>
                   <button>
-                  <i className="fa-brands fa-telegram icons"></i> send money
+                  <i className="fa-brands fa-telegram icons"></i> Send money
                   </button>
                   <button>
-                    ff
+                  <i class="fa-sharp fa-solid fa-square-plus"></i> Add money
                   </button>
               </div>
           </div>
