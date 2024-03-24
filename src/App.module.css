@@ -2,10 +2,12 @@ body{
    background-color:rgba(4, 0, 15, 1);
    color: white;
 
+
 }
 .mainDash{
    display: flex;
    justify-content: space-evenly;
+   overflow: hidden;
 }
 *{
    padding: 0;

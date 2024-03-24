@@ -23,7 +23,28 @@ const GridAspect=()=>{
                   </button>
               </div>
           </div>
-         
+            <div>
+            <div className={Gridstyles.twoStackCont}>
+               <div className={Gridstyles.stack1}>
+                     <p className={Gridstyles.total}>
+                        total <span className={Gridstyles.telegram}> <i className="fa-brands fa-telegram icons"></i></span>
+                     </p>
+                     <p className={Gridstyles.money}>
+                   <span className={Gridstyles.naira}>N</span>20,000,000
+              </p>
+               </div>
+         </div>
+         <div className={Gridstyles.twoStackCont}>
+               <div className={Gridstyles.stack1}>
+                     <p className={Gridstyles.total}>
+                        total <span className={Gridstyles.telegram}> <i className="fa-brands fa-telegram icons"></i></span>
+                     </p>
+                     <p className={Gridstyles.money}>
+                   <span className={Gridstyles.naira}>N</span>20,000,000
+              </p>
+               </div>
+         </div>
+            </div>
     </div>
    </>
  )
